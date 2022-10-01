@@ -1,0 +1,60 @@
+body {
+    background-color: lavender;
+}
+
+/* div {
+    background-color: peachpuff;
+} */
+
+#divid {
+    background-color: peachpuff;
+}
+
+.list-item {
+    background-color: darkseagreen;
+}
+
+.main-heading {
+    background-color: lightskyblue;
+}
+
+#first-paragraph {
+    background-color: lightcoral;
+}
+
+.purple-nav {
+    background-color: mediumpurple;
+}
+
+.gold-nav {
+    background-color: gold;
+}
+
+nav a {
+    display: block;
+}
+
+nav {
+    width: 200px;
+}
+
+img#she-codes-logo {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed orange;
+}
+
+header {
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+* {
+    border: 1px solid grey;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html {font-family: 'Raleway', sans-serif;background-color: #fff;}
