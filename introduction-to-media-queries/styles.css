@@ -13,20 +13,57 @@ div {
     height: 200px;
 }
 
-#div-1 {
-    background-color: #9370db;
+@media (max-width: 3000px) {
+    div {
+    display: inline-block;
+    width: 22%;
+    font-size: 1rem;
+    background-color: peachpuff;
+    }
+   }
+
+@media (max-width: 900px) {
+    div {
+    display: inline-block;
+    width: 44%;
+    font-size: 4rem;
+    background-color: steelblue;
+    }
+   }   
+
+@media (max-width: 499px) {
+    #div-1 {
+        background-color: #9370db;
+    }
+
+    #div-2 {
+        background-color: #8fbc8b;
+    }
+
+    #div-3 {
+        background-color: #6495ed;
+    }
+
+    #div-4 {
+        background-color: #f5deb3;
+    }
 }
 
-#div-2 {
-    background-color: #8fbc8b;
-}
+/* @media (min-width: 500px) {
+    div {
+    display: inline-block;
+    width: 44%;
+    font-size: 4rem;
+    background-color: aliceblue;
+    }
 
-#div-3 {
-    background-color: #6495ed;
-}
+   }
 
-#div-4 {
-    background-color: #f5deb3;
-}
-
-/*** Your code here ***/
+@media (min-width: 900px) {
+    div {
+    display: inline-block;
+    width: 22%;
+    font-size: 1rem;
+    background-color: peachpuff;
+    }
+   }    */
