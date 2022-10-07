@@ -18,7 +18,8 @@ h2 {
     color: #fff;
     font-size: 1rem;
     text-align: center;
-    padding: 0.5em 0;
+    padding: 1em 0;
+    margin-bottom: 0;
 }
 
 p {
@@ -64,7 +65,22 @@ button {
 
 
 @media (min-width: 600px) {
-    .row {
+    .row .form-item{
+        width: calc(100% / 2 - 25px);
+        display: inline-block;
+    }
+}
+
+
+@media (min-width: 900px) {
+    header {
+        width: calc(100% / 2 - 30px);
+        display: inline-block;
+        text-align: center;
+        vertical-align: 300%;
+        padding-right: 20px;
+    }
+    #form-wrapper {
         width: calc(100% / 2 - 10px);
         display: inline-block;
     }
